@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "work-anniversaries-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/workAnniversaries/WorkAnniversariesWebPart.js",
+          "manifest": "./src/webparts/workAnniversaries/WorkAnniversariesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WorkAnniversariesWebPartStrings": "lib/webparts/workAnniversaries/loc/{locale}.js"
+  }
+}

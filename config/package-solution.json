@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "work-anniversaries-client-side-solution",
+    "id": "b9d84e7e-cef4-49bc-bc38-4e21ceef2441",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Work Anniversaries description"
+      },
+      "longDescription": {
+        "default": "Work Anniversaries description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "work-anniversaries Feature",
+        "description": "The feature that activates elements of the work-anniversaries solution.",
+        "id": "61099091-8d6d-4cc0-8d64-3937eef04806",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/work-anniversaries.sppkg"
+  }
+}
