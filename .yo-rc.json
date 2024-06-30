@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.18.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "work-anniversaries",
+    "libraryId": "b9d84e7e-cef4-49bc-bc38-4e21ceef2441",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Work Anniversaries",
+    "solutionShortDescription": "Work Anniversaries description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
