@@ -23,6 +23,7 @@
     ],
     "lib": [
       "es5",
+      "es2017", // updated due to es2015 error
       "dom",
       "es2015.collection",
       "es2015.promise"
