@@ -1,0 +1,23 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.cardContainer {
+  margin-top: 10px;
+  border: none;
+}
+
+.card {
+  width: 360p;
+  max-width: 100%;
+  height: fit-content;
+  border: none;
+  padding: 2px;
+}
+
+.cardBody {
+  font-size: 14px;
+}
+
+.cardImg {
+  padding: 6px;
+}
