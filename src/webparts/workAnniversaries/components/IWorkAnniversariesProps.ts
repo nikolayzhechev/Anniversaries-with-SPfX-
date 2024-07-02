@@ -4,4 +4,5 @@ export interface IWorkAnniversariesProps {
   environmentMessage: string;
   hasTeamsContext: boolean;
   userDisplayName: string;
+  context: any;
 }
